@@ -1,0 +1,240 @@
+// 1. Print "Hello, World!" using cout.
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<"hellow world";
+}
+
+// 2. Print your name using cout.
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<"my name is shivam sharma";
+}
+
+// 3. Print your age using cout
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<"my age is 23";
+}
+
+// 4. Print the result of adding two numbers: 10 and 20
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<10 + 20;
+}
+
+// 5. Print the product of 7 and 8
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<7*8;
+}
+
+// 6.Print the sentence: "C++ programming is fun!".
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<"C++ programming is fun";
+}
+
+// 7.Print the value of a variable x that holds the value 25
+#include <iostream>
+using namespace std ;
+int main (){
+    
+    int x;
+    x=25;
+    cout <<x;
+}
+
+// 8.Print the sum of two user-entered numbers.
+#include <iostream>
+using namespace std ;
+int main (){
+    
+    int num1 , num2, sum;
+   
+    cout <<"enter a num1";
+    cin>> num1;
+    
+    cout <<"enter num 2";
+    cin>> num2 ;
+    
+    sum = num1 + num2;
+    
+    cout << "the sum of" << num1 << "and"<< num2 << "is:" << sum << std::endl;
+    
+}
+
+// 11.Print the result of subtracting 15 from 50.
+#include <iostream>
+using namespace std ;
+int main (){
+    cout <<50-15;
+}
+
+// 12.Print the value of the variable y where y = 15 + 10.
+
+#include <iostream>
+using namespace std ;
+int main (){
+   
+    
+    int y;
+    y=15+10;
+    cout <<y;
+
+}
+
+// 13.Print the result of dividing 100 by 5
+
+#include <iostream>
+using namespace std ;
+int main (){
+   
+cout<<100/5;
+}
+
+
+// 15. Print the value of the variable z where z = 5 * 4 + 3.
+
+#include <iostream>
+using namespace std ;
+int main (){
+   
+   int z ;
+   z=5*4+3;
+cout<<z;
+}
+
+
+
+// 16. Print the result of multiplying 12 and 13.
+
+#include <iostream>
+using namespace std ;
+int main (){
+   
+cout<<12*13;
+}
+
+
+// 20.Print the sum of three numbers entered by the user.
+#include <iostream>
+using namespace std ;
+int main (){
+    
+    int num1 , num2,num3, sum;
+   
+    cout <<"enter a num1";
+    cin>> num1;
+    
+    cout <<"enter num 2";
+    cin>> num2 ;
+    
+      cout <<"enter num 3";
+    cin>> num3 ;
+    
+    sum = num1 + num2 +num3;
+    
+    cout << "the sum of" << num1 << "and"<< num2 << num3<<"is:" << sum << std::endl;
+}
+
+
+// 22.Print the product of two numbers using variables (e.g., a = 6, b = 9).
+#include <iostream>
+using namespace std ;
+int main (){
+    
+    int a,b;
+    a=2;
+    b=2;
+    cout<<a*b;
+    
+
+}
+
+
+// 23.Print "My favorite number is __" where the number is user-input.
+#include <iostream>
+using namespace std ;
+int main (){
+  int favorite_number;
+
+   
+    cout << "Please enter your favorite number: ";
+    cin >> favorite_number;
+
+  
+    cout << "My favorite number is " << favorite_number << endl;
+    
+
+}
+
+// 25.Print "I am __ years old" where the age is entered by the user.
+#include <iostream>
+using namespace std ;
+int main (){
+  int age;
+
+   
+    cout << "Please enter your age: ";
+    cin >> age;
+
+  
+    cout << "i am" << age <<"year old" << endl;
+    
+
+}
+
+// 26.Print "My name is __" where the name is entered by the user.
+#include <iostream>
+using namespace std ;
+int main (){
+  string name;
+
+   
+    cout << "Please enter your name : ";
+    cin >> name;
+
+  
+    cout << "my name is "   << name << endl;
+    
+
+}
+
+// 27.Print "I live in __" where the city is entered by the user.
+#include <iostream>
+using namespace std ;
+int main (){
+  string name;
+
+   
+    cout << "Please enter your city : ";
+    cin >> name;
+
+  
+    cout << "i live in "   << name  << endl;
+    
+
+}
+// 29 .Print "My favorite color is __" where the color is entered by the user.
+#include <iostream>
+using namespace std ;
+int main (){
+  string name;
+
+   
+    cout << "Please enter your favorite colour : ";
+    cin >> name;
+
+  
+    cout << " my favorite colour is "   << name  << endl;
+    
+
+}
+
+
